@@ -1,0 +1,23 @@
+{
+  "name": "recaman-sequence",
+  "version": "1.0.0",
+  "description": "A visualization of one of the Recaman sequences",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --presets es2015 js/main.js -o build/js/main.js --watch",
+    "scss": "node-sass scss -o build/css --watch",
+    "http-server": "http-server",
+    "start": "start http-server && start npm run babel && start npm run scss"
+  },
+  "author": "Niels Vadot",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.11.1",
+    "node-sass": "^4.9.0"
+  }
+}
