@@ -4,4 +4,4 @@ This is a small project inspired by [Numberphile](https://www.youtube.com/watch?
 
 Check a live preview at this [link](https://htmlpreview.github.io/?https://github.com/ninivert/Recaman-Sequence/blob/master/index.html)
 
-*Made with ❤️ by ninivert*
+**Made with ❤️ by ninivert**
